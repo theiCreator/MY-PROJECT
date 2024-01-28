@@ -1,0 +1,24 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+
+  margin: 100px;
+  
+  width: 1000px;
+  /* height: 1000px; */
+}
+
+.child-div li {
+  margin-top: 30px;
+}

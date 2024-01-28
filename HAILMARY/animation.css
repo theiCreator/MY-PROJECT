@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black
+}
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  animation: fade 1.5s ease-in-out infinite;
+}
+
+img {
+  width: fit-content;
+  margin-left: 200px;
+  margin-top: 50px;
+ 
+}
+
+@keyframes fade {
+  0%, 100% {
+      opacity: 0.4;
+  }
+  50% {
+      opacity: 1;
+  }
+}

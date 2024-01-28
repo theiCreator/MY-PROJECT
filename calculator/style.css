@@ -1,0 +1,43 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html{
+  font-size: 6.25%;
+}
+button{
+  width: 50rem;
+  height: 50rem;
+}
+
+.main{
+  width: 500rem;
+  display: block;
+  text-align: center;
+  border: 2rem solid navy;
+  padding: 5rem;
+  margin: 15rem;
+  margin-left: 350rem;
+
+  
+  
+}
+ .btn--section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-section{
+  border: 3rem solid black;
+}
+
+
+
+
+
+
+
+
+
+
